@@ -1,36 +1,44 @@
 body {
-	background: linear-gradient(to right, rgb(52, 166, 214), rgb(118, 186, 31));
+	background: linear-gradient(to right, rgb(214, 216, 228), rgb(56, 98, 155));
+  width: 100%;
 }
 
+.jumbotron {
+  margin-top: 10px;
+}
 .content {
 	display: flex;
-	flex-flow: column wrap;
+	flex-flow: row wrap;
+}
+
+.card-body {
+  text-align: center;
 }
 
 footer {
 	display: flex;
 	justify-content: center;
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    position: relative;
-    bottom: 0;
-  	left: 0;
-  	right: 0;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .social-media {
 	margin-top: 20px;
-  	display: flex;
-  	justify-content: center;
-  	flex-flow: row wrap;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .fa-instagram {
-    color: #517fa4;    
+  color: #517fa4;    
 }
 
 .fa-instagram:hover {
-    color: rgb(85, 85, 172);    
+  color: rgb(85, 85, 172);    
 }
 
 .fa-github {
@@ -42,11 +50,11 @@ footer {
 }
 
 .fa-twitter {
-    color: #00aced
+  color: #00aced
 }
 
 .fa-twitter:hover {
-    color: rgb(199, 247, 82);
+  color: rgb(199, 247, 82);
 }
 
 .fa-linkedin {
