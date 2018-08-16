@@ -16,7 +16,11 @@
 }
 
 body {
+<<<<<<< HEAD
 	background: linear-gradient(to right, rgb(214, 216, 228), rgb(56, 98, 155));
+=======
+  background: linear-gradient(to right, rgb(214, 216, 228), rgb(56, 98, 155));
+>>>>>>> 61bb3245d4c6e98cb194f2bae31a1c127b7987a6
 }
 
 .card-columns {
@@ -32,8 +36,13 @@ body {
   margin-top: 10px;
 }
 .content {
+<<<<<<< HEAD
 	display: flex;
 	flex-flow: row wrap;
+=======
+  display: flex;
+  flex-flow: row wrap;
+>>>>>>> 61bb3245d4c6e98cb194f2bae31a1c127b7987a6
   /*border: solid black 20px;*/
 }
 
@@ -44,8 +53,8 @@ body {
 }
 
 footer {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
   text-transform: uppercase;
   letter-spacing: .5em;
   position: relative;
@@ -55,7 +64,7 @@ footer {
 }
 
 .social-media {
-	margin-top: 20px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -70,11 +79,11 @@ footer {
 }
 
 .fa-github {
-	color: #000;
+  color: #000;
 }
 
 .fa-github:hover {
-	color: rgb(69, 238, 177);
+  color: rgb(69, 238, 177);
 }
 
 .fa-twitter {
@@ -86,9 +95,9 @@ footer {
 }
 
 .fa-linkedin {
-	color: #007bb6;
+  color: #007bb6;
 }
 
 .fa-linkedin:hover {
-	color:  rgb(109, 246, 130);
+  color:  rgb(109, 246, 130);
 }
