@@ -1,6 +1,31 @@
+.unbehaved-element {
+    font-size: 2em;
+}
+@media(max-width: 1580px) {
+  html {
+    font-size: 18px;
+  }
+  .unbehaved-element {
+    font-size: 1.9em; /* Fine tune unbehaved elements */
+  }
+}
+@media(max-width: 980px) {
+  html {
+    font-size: 16px;
+  }
+}
+
 body {
 	background: linear-gradient(to right, rgb(214, 216, 228), rgb(56, 98, 155));
-  width: 100%;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
 }
 
 .jumbotron {
@@ -9,10 +34,13 @@ body {
 .content {
 	display: flex;
 	flex-flow: row wrap;
+  /*border: solid black 20px;*/
 }
 
-.card-body {
+.project-header {
   text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 footer {
