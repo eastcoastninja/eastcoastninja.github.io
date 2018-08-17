@@ -48,6 +48,7 @@ body {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding: 5px 5px;
 }
 
 .fa-instagram {
@@ -64,6 +65,13 @@ body {
 
 .fa-github:hover {
   color: rgb(69, 238, 177);
+}
+.fa-codepen {
+  color:  rgb(255, 255, 255);
+}
+
+.fa-codepen:hover {
+  color:  rgb(0, 0, 0);
 }
 
 .fa-twitter {
