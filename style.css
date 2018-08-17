@@ -14,15 +14,6 @@
     font-size: 16px;
   }
 }
-
-body {
-<<<<<<< HEAD
-	background: linear-gradient(to right, rgb(214, 216, 228), rgb(56, 98, 155));
-=======
-  background: linear-gradient(to right, rgb(214, 216, 228), rgb(56, 98, 155));
->>>>>>> 61bb3245d4c6e98cb194f2bae31a1c127b7987a6
-}
-
 .card-columns {
   @include media-breakpoint-only(lg) {
     column-count: 4;
@@ -32,17 +23,17 @@ body {
   }
 }
 
+body {
+  background: linear-gradient(to right, rgb(214, 216, 228), rgb(56, 98, 155));
+}
+
 .jumbotron {
   margin-top: 10px;
 }
+
 .content {
-<<<<<<< HEAD
-	display: flex;
-	flex-flow: row wrap;
-=======
   display: flex;
   flex-flow: row wrap;
->>>>>>> 61bb3245d4c6e98cb194f2bae31a1c127b7987a6
   /*border: solid black 20px;*/
 }
 
@@ -50,17 +41,6 @@ body {
   text-align: center;
   font-size: 1rem;
   font-weight: 400;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  text-transform: uppercase;
-  letter-spacing: .5em;
-  position: relative;
-  bottom: 0;
-  left: 0;
-  right: 0;
 }
 
 .social-media {
@@ -100,4 +80,15 @@ footer {
 
 .fa-linkedin:hover {
   color:  rgb(109, 246, 130);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
