@@ -1,5 +1,0 @@
-<!-- For styles with static names... -->
-<link href="{{ "/eastcoastninja.github.io/style.css" | relative_url }}" rel="stylesheet">
-<link href="{{ "/eastcoastninja.github.io/index.html" | relative_url }}" rel="stylesheet">
-<link href="{{ "/eastcoastninja.github.io/script.js" | relative_url }}" rel="stylesheet">
-{{ eastcoastninja.github.io }}pdfs/julian-rios-resume.pdf
