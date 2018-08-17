@@ -1,8 +1,8 @@
-console.log('fileOrigin', fileOrigin);
-console.log('viewerOrigin', viewerOrigin);
-
-// ... right above:
-
-if (fileOrigin !== viewerOrigin) {
-throw new Error('file origin does not match viewer\'s');
+let options = {
+  strings: ["Hi, my name is Julian."],
+  typeSpeed: 75
 }
+
+let typed = new Typed(".display-4", options);
+
+document.querySelectorAll(".typed-cursor")[0].style.display = "none"; 
