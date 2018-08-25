@@ -3,4 +3,5 @@ let options = {
   typeSpeed: 75
 }
 let typed = new Typed(".display-4", options);
-document.querySelectorAll(".typed-cursor")[0].style.display = "none"; 
+document.querySelectorAll(".typed-cursor")[0].style.display = "none";
+console.log("Hello World"); 

@@ -1,1 +1,1 @@
-var typed=new Typed(".display-4",{strings:["^1000 Hi, my name is Julian."], typeSpeed: 50});document.querySelectorAll(".typed-cursor")[0].style.display="none";
+var typed=new Typed(".display-4",{strings:["^500 Hi, my name is Julian."], typeSpeed: 50});document.querySelectorAll(".typed-cursor")[0].style.display="none"; console.log("Hello World");
